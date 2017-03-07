@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>MostMentions</servlet-name>
+		<servlet-class>br.com.desafio.twitter.rest.MostMentions</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MostRelevants</servlet-name>
+		<servlet-class>br.com.desafio.twitter.rest.MostRelevants</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>MostMentions</servlet-name>
+		<url-pattern>/most_mentions</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>MostRelevants</servlet-name>
+		<url-pattern>/most_relevants</url-pattern>
+	</servlet-mapping>
+		
+</web-app>
